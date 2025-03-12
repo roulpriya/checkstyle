@@ -39,7 +39,7 @@ jobs:
           only-pr-labels: "awaiting changes"
           labels-to-remove-when-unstale: "awaiting response,awaiting changes"
 
-          days-before-stale: 15
+          days-before-stale: 1
           stale-issue-message: |
             Hello 👋!
 
@@ -58,7 +58,7 @@ jobs:
 
             🚧 This Github Action is under testing, please let us know if it is misbehaving. 🚧
 
-          days-before-close: 60
+          days-before-close: 1
           close-issue-message: |
             Hello 👋!
 
